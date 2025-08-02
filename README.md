@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pal Apps Website
 
-## Getting Started
+A modern, responsive website for Pal Apps - a unified platform offering smart, simple tools designed to help people with everyday tasks.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Modern Design**: Clean, dark-themed UI with high-contrast elements
+- **Responsive Layout**: Optimized for desktop, tablet, and mobile devices
+- **Component-Based**: Modular, reusable components for easy maintenance
+- **TypeScript**: Full type safety throughout the application
+- **Tailwind CSS**: Utility-first styling with custom brand colors
+
+## 🎨 Brand Colors
+
+- **Primary**: #4978F2 (Blue)
+- **Secondary**: #7666F3 (Purple)
+- **Accent**: #5ABDA7 (Teal)
+- **Dark**: #1A1B23 (Dark background)
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                 # Next.js app directory
+│   ├── layout.tsx      # Root layout with Header/Footer
+│   ├── page.tsx        # Homepage
+│   └── globals.css     # Global styles
+├── components/         # Reusable UI components
+│   ├── Header.tsx     # Navigation header
+│   ├── Footer.tsx     # Site footer
+│   ├── HeroSection.tsx # Main hero section
+│   ├── AppsSection.tsx # Apps grid section
+│   └── AppCard.tsx    # Individual app card
+├── data/              # Data and types
+│   └── apps.ts        # App information and interfaces
+└── lib/               # Utility functions (future use)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 15** - React framework with App Router
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Utility-first CSS framework
+- **Inter Font** - Clean, modern typography
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🚀 Getting Started
 
-## Learn More
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📱 Pal Apps
 
-## Deploy on Vercel
+The website showcases various Pal apps:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **SleepPal** - Stops your audio when you fall asleep
+- **CartPal** - Build your grocery list based on what you actually eat
+- **ChorePal** - Helps roommates or couples split chores
+- **RemotePal** - The assistant for working from home
+- **FitPal** - Your personal fitness companion (coming soon)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔮 Future Features
+
+- Individual app landing pages
+- Demo versions of apps
+- Pal+ subscription system
+- User account management
+- Mobile app download links
+- Firebase/Stripe integrations
+
+## 📄 License
+
+This project is private and proprietary to Pal Apps.
